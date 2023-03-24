@@ -1,0 +1,86 @@
+/* Style pour le tableau */
+.table {
+    font-size: 14px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+}
+
+.table th {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
+.table td,
+.table th {
+    padding: 10px;
+    vertical-align: middle;
+    text-align: left;
+    border: 1px solid #ccc;
+}
+
+.table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.table-hover tbody tr:hover {
+    background-color: #e0e0e0;
+}
+
+/* Style pour la barre de recherche */
+.form-control {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+/* Style pour le bouton d'ajout */
+.btn-add {
+    margin-bottom: 20px;
+}
+
+/* Style pour le modal */
+.modal-header,
+.modal-footer {
+    background-color: #333;
+    color: #fff;
+}
+
+.modal-body {
+    font-size: 14px;
+}
+
+/* Style pour les inputs du formulaire */
+.form-control:focus {
+    border-color: #66afe9;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6);
+}
+
+.form-control::-webkit-input-placeholder {
+    color: #bbb;
+}
+
+.form-control::-moz-placeholder {
+    color: #bbb;
+}
+
+.form-control:-ms-input-placeholder {
+    color: #bbb;
+}
+
+.form-control::-ms-input-placeholder {
+    color: #bbb;
+}
+
+.form-control::placeholder {
+    color: #bbb;
+}
+
+
+body {
+    background-color: #f2f2f2;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
