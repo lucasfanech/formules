@@ -84,15 +84,15 @@ include('db.php');
                     </div>
                     <div class="form-group">
                         <label for="formula">Formule</label>
-                        <input type="text" class="form-control" id="formula" name="formula" maxlength="255" required>
+                        <input type="text" class="form-control" id="formula" name="formula" maxlength="510" required>
                     </div>
                     <div class="form-group">
                         <label for="comment">Commentaire</label>
-                        <textarea class="form-control" id="comment" name="comment" rows="3" maxlength="255"></textarea>
+                        <textarea class="form-control" id="comment" name="comment" rows="3" maxlength="510"></textarea>
                     </div>
                     <div class="form-group">
                         <label for="description">Description</label>
-                        <textarea class="form-control" id="description" name="description" rows="5" maxlength="255" required></textarea>
+                        <textarea class="form-control" id="description" name="description" rows="5" maxlength="510" required></textarea>
                     </div>
                 </form>
             </div>
